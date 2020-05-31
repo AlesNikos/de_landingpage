@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Gilroy Regular';
+    src: url('../fonts/gilroy/Gilroy-Regular.eot');
+    src: url('../fonts/gilroy/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/gilroy/Gilroy-Regular.woff') format('woff'),
+        url('../fonts/gilroy/Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Galien';
+    src: url('../fonts/galien/Galien-Regular.woff2') format('woff2'),
+        url('../fonts/galien/Galien-Regular.woff') format('woff'),
+        url('../fonts/galien/Galien-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@mixin reg {
+    font-family: 'Gilroy Regular', sans-serif;
+}
+
+@mixin gal {
+    font-family: 'Galien', serif;
+}
