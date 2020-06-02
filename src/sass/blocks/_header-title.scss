@@ -1,0 +1,30 @@
+.header-title {
+    padding: 49px 0 51px;
+    background: url('../img/header-title-bg.png') center no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+
+    // .header-title__heading
+    &__heading {
+        margin-bottom: 16px;
+        font-size: 44px;
+        line-height: 74px;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+    }
+
+    // .header-title__description 
+    &__description {
+        max-width: 780px;
+        margin: 0 auto;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.04em;
+        opacity: 0.6;
+    }
+}
+
+.page__title {
+    margin-bottom: 57px;
+}

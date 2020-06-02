@@ -1,11 +1,6 @@
-.wrapper {
-    // .wrapper__navbar-position
-    &__navbar-position {
-        margin-top: 40px;
-    }
-}
-.navbar {
+.header {
     position: relative;
+    padding-top: 40px;
     z-index: 10;
     // .navbar__container
     &__container {
@@ -38,3 +33,8 @@
     }
 }
         
+.inner-page {
+    .header {
+        padding-bottom: 41px;
+    }
+}
