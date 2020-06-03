@@ -1,0 +1,14 @@
+.map {
+    height: 480px;
+    @media(max-width: 575px) {
+        height: 75vh;
+    }
+    // .map__container
+    &__container {
+        height: 100%;
+    }
+}
+
+.page__map {
+    margin-bottom: 96px;
+}
